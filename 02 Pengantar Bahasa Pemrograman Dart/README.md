@@ -53,23 +53,15 @@ Jawab:
 Null Safety adalah fitur keamanan agar aplikasi tidak crash karena mencoba mengakses variabel yang tidak ada isinya (null). Sedangkan Late adalah cara kita memberi tahu Dart: "Sabar, variabel ini belum ada isinya sekarang, tapi saya janji akan mengisinya sebelum dipakai."
 
 ### NonNullable
-Di Dart modern, semua variabel secara default tidak boleh kosong (null). Jika mendeklarasikan variabel tanpa tanda apa pun, maka wajib langsung memberi nilai.
+Di Dart modern, semua variabel secara default tidak boleh kosong (null). Jika anda mendeklarasikan variabel tanpa tanda apa pun, maka anda wajib langsung memberi nilai.
 - Tujuan: Mencegah error "Null Pointer Exception" yang sering membuat aplikasi crash.
-![Hasil](/img/NonNullable.png)
+![Hasil](img/NonNullable.png)
 
 
-### Dengan Nullable Type (?)
-
-![Hasil](/Pertemuan2/NullSafety/with1.png)
-
-Penjelasan:
-String? artinya variabel boleh bernilai null. Program tetap berjalan dan mencetak null.
-
-### Dengan Non-Nullable
-
-![Hasil](/Pertemuan2/NullSafety/with2.png)
-
-Aman karena sudah diberi nilai awal.
+### Nullable 
+Jika anda memprediksi bahwa sebuah variabel mungkin tidak memiliki nilai (misalnya data dari internet yang belum masuk), anda harus menandainya dengan tanda tanya (?).
+- Tujuan: Memberi tahu Dart bahwa variabel ini "aman" jika berisi null.
+![Hasil](img/Nullable.png)
 
 ## Late Variable
 
@@ -80,19 +72,14 @@ Biasanya digunakan:
 - Pada class (misalnya di Flutter)
 
 ### Dengan Late Variable
+late digunakan untuk variabel yang Non-Nullable, tapi nilainya tidak diberikan sekarang, melainkan nanti.
 
-![Hasil](/Pertemuan2/LateVariable/LateVar.png)
+Kapan pakai? Biasanya untuk variabel yang nilainya didapat setelah fungsi lain (seperti initState di Flutter) berjalan.
+![Hasil](img/LateVariabel.png)
 
-Tidak error karena variabel diisi sebelum digunakan.
 
-### Dengan Late Variable yang salah
-
-![Hasil](/Pertemuan2/LateVariable/!LateVar.png)
-
-Karena variabel belum diberi nilai saat dipanggil.
 
 ## Kesimpulan
 
-1. Null Safety mencegah variabel memiliki nilai null secara tidak sengaja.
-2. Late digunakan ketika variabel pasti akan diisi, tetapi tidak langsung saat deklarasi.
-3. Null safety lebih ke keamanan tipe data, sedangkan late lebih ke waktu inisialisasi.
+- Gunakan ? jika datanya memang mungkin tidak ada.
+- Gunakan late jika datanya pasti ada, tapi kamu belum bisa mengisinya di awal baris kode.
