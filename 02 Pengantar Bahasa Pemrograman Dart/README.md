@@ -63,15 +63,7 @@ Jika anda memprediksi bahwa sebuah variabel mungkin tidak memiliki nilai (misaln
 - Tujuan: Memberi tahu Dart bahwa variabel ini "aman" jika berisi null.
 ![Hasil](img/Nullable.png)
 
-## Late Variable
-
-Keyword late digunakan untuk menunda inisialisasi variabel, tetapi programmer berjanji bahwa variabel tersebut akan diisi sebelum digunakan.
-
-Biasanya digunakan:
-- Pada variabel yang tidak bisa langsung diinisialisasi
-- Pada class (misalnya di Flutter)
-
-### Dengan Late Variable
+### Late Variable
 late digunakan untuk variabel yang Non-Nullable, tapi nilainya tidak diberikan sekarang, melainkan nanti.
 
 Kapan pakai? Biasanya untuk variabel yang nilainya didapat setelah fungsi lain (seperti initState di Flutter) berjalan.
