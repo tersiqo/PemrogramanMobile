@@ -19,7 +19,7 @@ Modifikasilah kode pada baris 3 di VS Code atau Editor Code favorit Anda berikut
 Jawab:
 Berikut adalah hasil modifikasi kode program yang menghasilkan output sesuai dengan yang diminta
 
-![Hasil Modifikasi Kode Program](img/soalno1.png)
+![Hasil Modifikasi Kode Program](img/Soalno1.png)
 
 ## Soal 2
 
@@ -50,20 +50,13 @@ Buatlah penjelasan dan contoh eksekusi kode tentang perbedaan Null Safety dan La
 Jawab:
 
 ## Null Safety
-Null Safety adalah fitur Dart yang mencegah variabel memiliki nilai null secara tidak sengaja.
-Secara default, variabel tidak boleh bernilai null kecuali kita menandainya dengan tanda ?.
+Null Safety adalah fitur keamanan agar aplikasi tidak crash karena mencoba mengakses variabel yang tidak ada isinya (null). Sedangkan Late adalah cara kita memberi tahu Dart: "Sabar, variabel ini belum ada isinya sekarang, tapi saya janji akan mengisinya sebelum dipakai."
 
-Tujuan:
-- Mengurangi error Null Pointer Exception
-- Meningkatkan keamanan kode
-- Bug bisa terdeteksi saat compile time
+### NonNullable
+Di Dart modern, semua variabel secara default tidak boleh kosong (null). Jika mendeklarasikan variabel tanpa tanda apa pun, maka wajib langsung memberi nilai.
+- Tujuan: Mencegah error "Null Pointer Exception" yang sering membuat aplikasi crash.
+![Hasil](/img/NonNullable.png)
 
-### Tanpa Null Safety
-
-![Hasil](/Pertemuan2/NullSafety/without.png)
-
-Akan error karena variabel nama belum diberi nilai. 
-Lalu untuk mengatasinya kita ada 2 cara yaitu
 
 ### Dengan Nullable Type (?)
 
