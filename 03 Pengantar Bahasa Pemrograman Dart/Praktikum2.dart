@@ -5,9 +5,4 @@ void main() {
     print(counter);
     counter++;
   }
-  
-    do {
-    print(counter);
-    counter++;
-  } while (counter < 77);
 }

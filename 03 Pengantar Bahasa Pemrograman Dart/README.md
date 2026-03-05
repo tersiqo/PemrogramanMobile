@@ -102,13 +102,11 @@ do {
 
 Apa yang terjadi ? Jika terjadi error, silakan perbaiki namun tetap menggunakan *do-while*.
 
-![Output Praktikum 2](img/praktikum2_S3.png)
+![Output Praktikum 2](img/prak2_langkah3.png)
 
-Errornya sama seperti sebelumnya yaitu variabel counter belum di deklarasikan
-
-Perbaikannya sama seperti sebelumnya juga yaitu mendeklarasikan variabel counternya
-
-![Output Praktikum 2](img/praktikum2_S3_perbaikan.png)
+- Program berhasil dijalankan karena variabel counter sudah dideklarasikan sebelumnya, dan output di Debug Console akan melanjutkan urutan angka sebelumnya.
+- Output: Angka akan tercetak mulai dari 33 sampai 76.
+- Kondisi Akhir: Perulangan berhenti tepat sebelum angka 77 dicetak.
 
 ## Praktikum 3
 ### Langkah 1:
