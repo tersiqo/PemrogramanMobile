@@ -129,9 +129,9 @@ Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jela
 
 - Variabel index belum dibuat atau belum ditentukan tipe datanya (misalnya int).
 
-![Output Praktikum 3](img/prak3_langkah2(1).png)
-
 - Agar kode ini bisa berjalan dan memunculkan angka dari 10 sampai 26, Anda harus merapikan penulisan hurufnya dan menambahkan perintah penambah nilai (++).
+
+![Output Praktikum 3](img/prak3_langkah2(1).png)
 
 ### Langkah 3:
 
@@ -145,21 +145,23 @@ print(index);
 
 Apa yang terjadi ? Jika terjadi error, silakan perbaiki namun tetap menggunakan *for* dan *break-continue*.
 
-![Output Praktikum 3](img/praktikum3_S3.png)
+![Output Praktikum 3](img/prak3_langkah3.png)
 
-Terjadi error karena penulisan If dan Else If menggunakan huruf kapital, padahal Dart bersifat case-sensitive sehingga harus menggunakan huruf kecil ('if' dan 'else if'), terdapat warning karena pernyataan if dan else if tidak dibungkus dengan kurung kurawal {}, Selain itu penggunaan operator || membuat kondisi selalu TRUE karena index > 1 sudah pasti terpenuhi saat index dimulai dari 10, sehingga perintah print tidak pernah dijalankan
+- menggunakan If, Else If, dan Index (huruf kapital). Seperti masalah sebelumnya, Dart hanya mengenal huruf kecil untuk perintah logika: if, else if, dan variabel index.
 
-Perbaikannya yaitu mengubah penulisan If dan Else If menjadi if dan else if, serta mengganti operator || dengan && agar perintah print tetap berjalan dan menghasilkan output angka 10 sampai 20, lalu berhenti di index 21 karena adanya break
+- Kondisi index > 1 || index < 7 akan selalu bernilai benar (true) untuk angka 10 sampai 26. Akibatnya, perintah print(index) di bawahnya tidak akan pernah dieksekusi karena lompatan continue.
 
-![Output Praktikum 3](img/praktikum3_S3_perbaikan.png)
+- Ubah kondisi continue agar hanya berlaku pada rentang angka tertentu saja, atau hapus jika ingin melihat semua angka sebelum 21.
+
+![Output Praktikum 3](img/prak3_langkah3(1).png)
 
 # Soal 2
 Buatlah sebuah program yang dapat menampilkan bilangan prima dari angka 0 sampai 201 menggunakan Dart. Ketika bilangan prima ditemukan, maka tampilkan nama lengkap dan NIM Anda.
 
-Code Program
+Kodingan
 
-![Code Bilangan Prima](img/BilanganPrima.png)
+![Code Bilangan Prima](img/Tugas(kode).png)
 
-Outputnya
+Output
 
-![Output Bilangan Prima](img/BilanganPrimaOutput.png)
+![Output Bilangan Prima](img/Tugas(output).png)
