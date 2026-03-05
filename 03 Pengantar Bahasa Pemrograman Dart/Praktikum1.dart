@@ -1,12 +1,19 @@
 void main() {
-    String test = "test2";
+  String test = "test2";
   if (test == "test1") {
     print("Test1");
-  } else If (test == "test2") {
+  } else if (test == "test2") {
     print("Test2");
-  } Else {
+  } else {
     print("Something else");
   }
 
   if (test == "test2") print("Test2 again");
+
+    bool testBaru = true;
+  if (testBaru) {
+    print("Kebenaran");
+  } else {
+    print("Bukan Kebenaran");
+  }
 }
