@@ -123,13 +123,15 @@ for (Index = 10; index < 27; index) {
 
 Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jelaskan! Lalu perbaiki jika terjadi error.
 
-![Output Praktikum 3](img/praktikum3_S2.png)
+![Output Praktikum 3](img/prak3_langkah2.png)
 
-Terjadi error karena beberapa hal yaitu index belum memiliki tipe data, penulisannya yang seharusnya 'index' jadi 'Index', dan pada baris 2 index belum ditambahkan ++ di bagian akhirnya. 
+- Penulisan Index (huruf I besar) dan index (huruf i kecil) secara bergantian. Dalam Dart, keduanya dianggap variabel yang berbeda.
 
-Perbaikannya yaitu menambahkan tipe data pada index, mengganti penulisan 'Index' menjadi 'index', serta menambahkan ++ pada index di akhir baris 2.
+- Variabel index belum dibuat atau belum ditentukan tipe datanya (misalnya int).
 
-![Output Praktikum 3](img/praktikum3_S2_perbaikan.png)
+![Output Praktikum 3](img/prak3_langkah2(1).png)
+
+- Agar kode ini bisa berjalan dan memunculkan angka dari 10 sampai 26, Anda harus merapikan penulisan hurufnya dan menambahkan perintah penambah nilai (++).
 
 ### Langkah 3:
 
