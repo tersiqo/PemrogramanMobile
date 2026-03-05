@@ -38,7 +38,8 @@ Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jela
 
 ![Output Praktikum 1](img/prak1_langkah2.png)
 
-Terjadi error karena pada baris 5 penulisan 'If' menggunakan huruf 'I' kapital, dan pada baris 7 penulisan 'Else' menggunakan huruf 'E' kapital. Seharusnya, penulisan 'if' maupun 'else' menggunakan huruf kecil di awalnya agar tidak terjadi error
+- If dan Else dengan huruf kapital. Di bahasa Dart, itu harus ditulis huruf kecil semua (if dan else).
+- Dart menganggap huruf besar dan kecil itu beda jauh. Karena salah tulis satu huruf saja, komputer jadi bingung dan tidak mau memproses kode Anda.
 
 ### Langkah 3:
 
@@ -55,11 +56,12 @@ Apa yang terjadi ? Jika terjadi error, silakan perbaiki namun tetap menggunakan 
 
 ![Output Praktikum 1](img/prak1_langkah3.png)
 
-Terjadi error karena variabel test bertipe String bukan boolean. Pada Dart kondisi pada if harus berupa nilai boolean (true atau false), jadi String tidak bisa langsung digunakan sebagai syarat if
+- mendeklarasikan variabel test lagi dengan kata kunci String. Di Dart, variabel dengan nama yang sama tidak boleh dideklarasikan dua kali dalam satu cakupan (scope) fungsi main().
+- memasukkan variabel test sebuah String langsung ke dalam kondisi if. Di Dart, kondisi if hanya menerima nilai Boolean (true atau false), sehingga muncul pesan error: "A value of type 'String' can't be assigned to a variable of type 'bool'".
 
 Perbaikannya
 
-![Output Praktikum 1](img/praktikum1_S3_perbaikan.png)
+![Output Praktikum 1](img/prak1_langkah3(2).png)
 
 Maka akan muncul 'Kebenaran' sebagai output
 
