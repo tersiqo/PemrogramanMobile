@@ -81,13 +81,13 @@ while (counter < 33) {
 
 Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jelaskan! Lalu perbaiki jika terjadi error.
 
-![Output Praktikum 2](img/praktikum2_S2.png)
+![Output Praktikum 2](img/prak2_langkah2.png)
 
-Terjadi error karena variabel counter belum dideklarasikan sebelum digunakan di dalam loop while
+- menggunakan variabel counter (untuk dibandingkan dengan angka 33 dan ditambah nilainya), tetapi belum membuat (mendeklarasikan) variabel tersebut sebelumnya.
 
-Perbaikannya yaitu dengan mendeklarasikan variabel counter terlebih dahulu dengan tipe data int dan memberikan nilai awal, contohnya yaitu int counter = 0;, agar program bisa berjalan tanpa error
+- Perbaikan, membuat variabel counter terlebih dahulu dan memberinya nilai awal sebelum masuk ke dalam perulangan while.
 
-![Output Praktikum 2](img/praktikum2_S2_perbaikan.png)
+![Output Praktikum 2](img/prak2_langkah2(1).png)
 
 ### Langkah 3:
 
