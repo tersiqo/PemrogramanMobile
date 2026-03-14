@@ -243,20 +243,15 @@ print(nav2);
 
 Apa yang terjadi? Jika terjadi error, silakan perbaiki. Tunjukkan hasilnya jika variabel `login` mempunyai kondisi lain.
 
-Error karena var login belum di deklarasikan
-![Output Praktikum 4](img/Spread_CFO7.png)
+error karena variabel login belum dideklarasikan.
+![Output Praktikum 4](img/Prak4_langkah5.png)
 
-Solusinya mendeklarasikan var Login dengan nilainya adalah manager
-![Output Praktikum 4](img/Spread_CFO8.png)
+Solusi mendeklarasikan variabel login terlebih dahulu.
+output jika login = 'Manager'
+![Output Praktikum 4](img/Prak4_langkah5(1).png)
 
-Outpunya jika Login nilainya manager
-![Output Praktikum 4](img/Spread_CFO_Output5.png)
-
-Code jika Login nilainya selain manager(user)
-![Output Praktikum 4](img/Spread_CFO9.png)
-
-Outpunya jika Login nilainya selain manager(user)
-![Output Praktikum 4](img/Spread_CFO_Output6.png)
+Outpunya jika Login = 'User'
+![Output Praktikum 4](img/Prak4_langkah5(2).png)
 
 **Langkah 6:**
 
