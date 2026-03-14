@@ -47,13 +47,11 @@ Ubah kode pada langkah 1 menjadi variabel final yang mempunyai index = 5 dengan 
 
 Apa yang terjadi? Jika terjadi error, silakan perbaiki.
 
-Codenya
+Codenya dan Outputnya
 
-![Output Praktikum 1](img/tipeDatalist1.png)
+![Output Praktikum 1](img/Prak1_langkah3.png)
 
-Outputnya
-
-![Output Praktikum 1](img/tipeDatalistOutput.png)
+Program berhasil dijalankan tanpa error. List dibuat dengan panjang 5 elemen dan semua nilai awalnya null. Setelah itu, elemen pada indeks ke-1 diisi dengan nama Tersiqo Alfarezel dan indeks ke-2 diisi dengan NIM 244107060089, lalu hasilnya ditampilkan menggunakan print().
 
 ## Praktikum 2: Eksperimen Tipe Data Set
 
