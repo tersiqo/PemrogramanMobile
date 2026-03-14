@@ -96,7 +96,7 @@ Codenya dan Outputnya
 
 ![Output Praktikum 2](img/Prak2_langkah3.png)
 
-Kode diperbaiki dengan mengubah deklarasi names3 menjadi Set<String> agar tidak terbaca sebagai Map, lalu data dimasukkan menggunakan .add() untuk elemen tunggal dan .addAll() untuk kumpulan elemen sekaligus, sehingga ketiga variabel berhasil menyimpan Nama dan NIM Anda dengan tipe data yang konsisten.
+Kode diperbaiki dengan mengubah deklarasi names3 menjadi Set<String> agar tidak terbaca sebagai Map, lalu data dimasukkan menggunakan .add() untuk elemen tunggal dan .addAll() untuk kumpulan elemen sekaligus, sehingga ketiga variabel berhasil menyimpan Nama dan NIM dengan tipe data yang konsisten.
 
 ## Praktikum 3: Eksperimen Tipe Data Maps
 
@@ -128,9 +128,9 @@ print(nobleGases);
 
 Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jelaskan! Lalu perbaiki jika terjadi error.
 
-![Output Praktikum 3](img/tipeDatamaps.png)
+![Output Praktikum 3](img/Prak3_langkah2.png)
 
-kode berhasil dijalankan dan mencetak isi Map gifts dan nobleGases ke layar tanpa error karena Dart mendukung Map dengan tipe data dinamis.
+Program berjalan dengan baik tanpa error. Dua variabel (gifts dan nobleGases) merupakan Map yang menyimpan data dalam bentuk pasangan key dan value, kemudian ditampilkan menggunakan print().
 
 **Langkah 3:**
 
