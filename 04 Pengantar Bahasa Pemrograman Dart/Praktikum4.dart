@@ -15,4 +15,8 @@ void main () {
   var nimList = [0, ...nim];
   print(nimList);
 
+  var promoActive = false;
+  var nav = ['Home', 'Furniture', 'Plants', if (promoActive) 'Outlet'];
+  print(nav);
+
 }

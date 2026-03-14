@@ -221,17 +221,15 @@ print(nav);
 
 Apa yang terjadi? Jika terjadi error, silakan perbaiki. Tunjukkan hasilnya jika variabel `promoActive` ketika `true` dan `false`.
 
-Error karena var promoActive belum di deklarasikan
-![Output Praktikum 4](img/Spread_CFO5.png)
+terjadi error karena variabel promoActive belum dideklarasikan.
+![Output Praktikum 4](img/Prak4_langkah4.png)
 
-Solusinya mendeklarasikan var promoActive
-![Output Praktikum 4](img/Spread_CFO6.png)
-
-Outpunya jika promoActive True
-![Output Praktikum 4](img/Spread_CFO_Output3.png)
+perlu membuat variabel promoActive terlebih dahulu.
+output jika promoActive True
+![Output Praktikum 4](img/Prak4_langkah4(1).png)
 
 Outpunya jika promoActive False
-![Output Praktikum 4](img/Spread_CFO_Output4.png)
+![Output Praktikum 4](img/Prak4_langkah4(2).png)
 
 **Langkah 5:**
 
