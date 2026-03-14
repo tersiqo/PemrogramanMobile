@@ -155,11 +155,8 @@ Program tidak menghasilkan error, Perintah map[key] = value digunakan untuk mena
 Tambahkan elemen nama dan NIM Anda pada tiap variabel di atas (`gifts`, `nobleGases`, `mhs1`, dan `mhs2`).
 Dokumentasikan hasilnya dan buat laporannya.
 
-Codenya
-![Output Praktikum 3](img/tipeDatamaps2.png)
-
-Outputnya
-![Output Praktikum 3](img/tipeDatamapsOutput.png)
+Codenya dan Outputnya
+![Output Praktikum 3](img/Prak3_langkah3(1).png)
 
 ## Praktikum 4: Eksperimen Tipe Data List: Spread dan Control-flow Operators
 
