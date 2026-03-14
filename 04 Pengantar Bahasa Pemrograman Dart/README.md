@@ -271,6 +271,11 @@ Tidak terjadi error
 
 Dart menggunakan Collection For untuk melakukan perulangan pada listOfInts dan menghasilkan List baru yang berisi elemen string dengan awalan #. Pernyataan assert digunakan untuk memastikan bahwa elemen kedua dari List adalah '#1'. Program berjalan tanpa error dan menghasilkan output [#0, #1, #2, #3].
 
+Manfaat Collection For
+- Membuat kode lebih ringkas dan mudah dibaca
+- Tidak perlu membuat List kosong lalu menambahkan elemen satu per satu
+- Mempermudah transformasi data dari satu List ke List lain
+
 ## Praktikum 5: Eksperimen Tipe Data Records
 
 **Langkah 1:**
