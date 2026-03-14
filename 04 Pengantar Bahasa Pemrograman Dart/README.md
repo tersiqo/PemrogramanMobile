@@ -229,6 +229,7 @@ output jika promoActive True
 ![Output Praktikum 4](img/Prak4_langkah4(1).png)
 
 Outpunya jika promoActive False
+
 ![Output Praktikum 4](img/Prak4_langkah4(2).png)
 
 **Langkah 5:**
