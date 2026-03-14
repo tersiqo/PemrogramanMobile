@@ -70,9 +70,9 @@ print(halogens);
 
 Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jelaskan! Lalu perbaiki jika terjadi error.
 
-![Output Praktikum 2](img/tipeDataSet.png)
+![Output Praktikum 2](img/Prak2_langkah2.png)
 
-Kode tersebut mendeklarasikan sebuah variabel bernama halogens yang bertipe Set karena menggunakan tanda kurung kurawal {} tanpa pasangan key-value ":", kemudian kode tersebut mencetak isi set ke konsol dan tidak terdapat error pada kode tersebut.
+Program berjalan dengan normal tanpa error. Variabel halogens menyimpan data dalam bentuk Set yang berisi lima elemen, yaitu fluorine, chlorine, bromine, iodine, dan astatine, lalu ditampilkan menggunakan fungsi print().
 
 **Langkah 3:**
 
@@ -92,13 +92,11 @@ Apa yang terjadi? Jika terjadi error, silakan perbaiki namun tetap gunakan ketig
 
 Dokumentasikan kode dan hasil di console, lalu buat laporannya.
 
-Codenya
+Codenya dan Outputnya
 
-![Output Praktikum 2](img/tipeDataSet1.png)
+![Output Praktikum 2](img/Prak2_langkah3.png)
 
-Outputnya
-
-![Output Praktikum 2](img/tipeDataSetOutput.png)
+Kode diperbaiki dengan mengubah deklarasi names3 menjadi Set<String> agar tidak terbaca sebagai Map, lalu data dimasukkan menggunakan .add() untuk elemen tunggal dan .addAll() untuk kumpulan elemen sekaligus, sehingga ketiga variabel berhasil menyimpan Nama dan NIM Anda dengan tipe data yang konsisten.
 
 ## Praktikum 3: Eksperimen Tipe Data Maps
 
