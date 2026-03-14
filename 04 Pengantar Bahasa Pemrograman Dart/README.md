@@ -150,9 +150,8 @@ nobleGases[18] = 'argon';
 
 Apa yang terjadi? Jika terjadi error, silakan perbaiki.
 
-data fifth pada gifts yang awalnya '1' berubah jadi 'golden rings', dan data 18 pada nobleGases yang awalnya '2' berubah jadi 'argon' 
-![Output Praktikum 3](img/tipeDatamaps1.png)
-
+Program tidak menghasilkan error, Perintah map[key] = value digunakan untuk menambahkan atau memperbarui data dalam Map.
+![Output Praktikum 3](img/Prak3_langkah3.png)
 Tambahkan elemen nama dan NIM Anda pada tiap variabel di atas (`gifts`, `nobleGases`, `mhs1`, dan `mhs2`).
 Dokumentasikan hasilnya dan buat laporannya.
 
