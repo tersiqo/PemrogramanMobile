@@ -295,15 +295,11 @@ Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jela
 
 error karena tidak ada tanda titik koma (;) setelah print(record).
 
-perbaikannya yaitu menambahkan ";" pada akhir print(record)
+menambahkan tanda ; di akhir perintah print.
 
-![Output Praktikum 5](img/tipeDatarecord1.png)
+![Output Praktikum 5](img/Prak5_langkah2(1).png)
 
-Outputnya
-
-![Output Praktikum 5](img/tipeDatarecordOutput.png)
-
-Program akan menampilkan seluruh isi record ke layar, yaitu 'first' dan 'last' sebagai data berurutan, serta a: 2 dan b: true sebagai data bernama.
+Program akan membuat sebuah Record yang berisi beberapa nilai dengan tipe data berbeda. Record memungkinkan penyimpanan data positional dan named fields dalam satu variabel, kemudian ditampilkan menggunakan fungsi print(). 
 
 **Langkah 3:**
 
