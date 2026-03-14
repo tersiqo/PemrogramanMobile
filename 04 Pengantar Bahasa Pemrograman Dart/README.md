@@ -201,22 +201,14 @@ print(list3.length);
 
 Apa yang terjadi? Jika terjadi error, silakan perbaiki.
 
-Terjadi error karena belum ada deklarasi 'var' di awal list1
-![Output Praktikum 4](img/Spread_CFO2.png)
-
-Perbaikannya yaitu dengan menambahakan var di list1
-![Output Praktikum 4](img/Spread_CFO3.png)
-
-dan outputnya yaitu
-![Output Praktikum 4](img/Spread_CFO_Output1.png)
-
 Tambahkan variabel list berisi NIM Anda menggunakan Spread Operators. Dokumentasikan hasilnya dan buat laporannya.
 
-Codenya
-![Output Praktikum 4](img/Spread_CFO4.png)
+muncul error karena variabel list1 belum dideklarasikan sebelumnya.
+![Output Praktikum 4](img/Prak4_langkah3.png)
 
-Outputnya
-![Output Praktikum 4](img/Spread_CFO_Output2.png)
+Perbaikannya yaitu dengan menambahakan var di list1, serta menambahkan variabel list berisi NIM.
+![Output Praktikum 4](img/Prak4_langkah3(1).png)
+
 
 **Langkah 4:**
 
