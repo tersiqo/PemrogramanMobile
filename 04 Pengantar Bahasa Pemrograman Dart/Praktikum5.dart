@@ -12,5 +12,16 @@ void main() {
 
   var hasil = tukar(angka);
   print('Record setelah ditukar: $hasil');
+
+  (String, int) mahasiswa;
+  mahasiswa = ('Tersiqo Alfarezel', 244107060089);
+  print(mahasiswa);
+
+   var mahasiswa2 = ('Tersiqo Alfarezel', a: 244107060089, b: true, 'last');
+
+  print(mahasiswa2.$1); // Prints 'first'
+  print(mahasiswa2.a); // Prints 2
+  print(mahasiswa2.b); // Prints true
+  print(mahasiswa2.$2); // Prints 'last'
 }
 

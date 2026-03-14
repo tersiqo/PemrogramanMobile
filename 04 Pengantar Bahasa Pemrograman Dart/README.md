@@ -330,14 +330,11 @@ print(mahasiswa);
 ```
 Apa yang terjadi? Jika terjadi error, silakan perbaiki. Inisialisasi field nama dan NIM Anda pada variabel record `mahasiswa` di atas. Dokumentasikan hasilnya dan buat laporannya!
 
-Terjadi error karena data mahasiswa belum di isi
-![Output Praktikum 5](img/tipeDatarecord4.png)
+error karena variabel mahasiswa sudah dideklarasikan tetapi belum diberi nilai (belum diinisialisasi).
+![Output Praktikum 5](img/Prak5_langkah4.png)
 
-Kode setelah data mahasiswa di isi
-![Output Praktikum 5](img/tipeDatarecord5.png)
-
-Outputnya
-![Output Praktikum 5](img/tipeDatarecordOutput2.png)
+Kode dan outputnya setelah mengisi data mahasiswa 
+![Output Praktikum 5](img/Prak5_langkah4(1).png)
 
 **Langkah 5:**
 
@@ -352,14 +349,11 @@ print(mahasiswa2.$2); // Prints 'last'
 ```
 Apa yang terjadi jika terjadi error, silakan perbaiki. Gantilah salah satu isi record dengan nama dan NIM Anda, lalu dokumentasikan hasilnya dan buat laporannya!
 
-Tidak terjadi error, output sesuai dengan contoh
-![Output Praktikum 5](img/tipeDatarecord6.png)
+Tidak terjadi error
+![Output Praktikum 5](img/Prak5_langkah5.png)
 
-Kode setelah satu record di ganti nama dan nim
-![Output Praktikum 5](img/tipeDatarecord7.png)
-
-Outputnya
-![Output Praktikum 5](img/tipeDatarecordOutput3.png)
+Kode dan output setelah satu record di ganti nama dan nim
+![Output Praktikum 5](img/Prak5_langkah5(1).png)
 
 # Soal 2
 Jelaskan yang dimaksud Functions dalam bahasa Dart!
