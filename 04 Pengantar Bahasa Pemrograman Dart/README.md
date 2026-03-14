@@ -158,6 +158,8 @@ Dokumentasikan hasilnya dan buat laporannya.
 Codenya dan Outputnya
 ![Output Praktikum 3](img/Prak3_langkah3(1).png)
 
+Saat program dijalankan, Dart membuat beberapa Map, kemudian menambahkan elemen baru berupa nama dan NIM menggunakan pasangan key dan value. Setelah itu seluruh isi Map ditampilkan menggunakan fungsi print(), sehingga dapat melihat data yang telah disimpan di masing-masing variabel.
+
 ## Praktikum 4: Eksperimen Tipe Data List: Spread dan Control-flow Operators
 
 Selesaikan langkah-langkah praktikum berikut ini menggunakan VS Code atau Code Editor favorit Anda.
@@ -178,13 +180,13 @@ print(list2.length);
 
 Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jelaskan! Lalu perbaiki jika terjadi error.
 
-![Output Praktikum 4](img/Spread_CFO.png)
+![Output Praktikum 4](img/Prak4_langkah2.png)
 
-Terjadi error karena list 1 tidak ada, perbaikannya yaitu mengubah list1 menjadi list
-![Output Praktikum 4](img/Spread_CFO1.png)
+program akan menghasilkan error karena variabel list1 belum dibuat.
 
-dan outpunya yaitu
-![Output Praktikum 4](img/Spread_CFO_Output.png)
+Variabel list1 harus diganti menjadi list.
+![Output Praktikum 4](img/Prak4_langkah2(1).png)
+
 
 **Langkah 3:**
 
