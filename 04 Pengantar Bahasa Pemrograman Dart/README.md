@@ -291,9 +291,9 @@ print(record)
 
 Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jelaskan! Lalu perbaiki jika terjadi error.
 
-![Output Praktikum 5](img/tipeDatarecord.png)
+![Output Praktikum 5](img/Prak5_langkah2.png)
 
-Terjadi error karena pada code kurang menambahkan ";" pada akhir print(record)
+error karena tidak ada tanda titik koma (;) setelah print(record).
 
 perbaikannya yaitu menambahkan ";" pada akhir print(record)
 
