@@ -313,14 +313,11 @@ Tambahkan kode program berikut di luar scope `void main()`, lalu coba eksekusi (
 ```
 Apa yang terjadi? Jika terjadi error, silakan perbaiki. Gunakan fungsi `tukar()` di dalam `main()` sehingga tampak jelas proses pertukaran value field di dalam Record.
 
-Tidak ada error, tetapi outpunya masih sama seperti no 2
-![Output Praktikum 5](img/tipeDatarecord2.png)
+fungsi hanya ditambahkan tetapi tidak dipanggil di main(), maka program tetap berjalan tetapi tidak terlihat proses pertukarannya.
+![Output Praktikum 5](img/Prak5_langkah3.png)
 
-Setelah menggunakan fungsi tukar dalam main, codenya begini
-![Output Praktikum 5](img/tipeDatarecord3.png)
-
-Outputnya
-![Output Praktikum 5](img/tipeDatarecordOutput1.png)
+menambahkan penggunaan fungsi tukar()
+![Output Praktikum 5](img/Prak5_langkah3(1).png)
 
 **Langkah 4:**
 
