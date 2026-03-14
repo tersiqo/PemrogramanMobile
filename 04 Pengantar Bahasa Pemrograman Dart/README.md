@@ -267,9 +267,9 @@ print(listOfStrings);
 Apa yang terjadi? Jika terjadi error, silakan perbaiki. Jelaskan manfaat **Collection For** dan dokumentasikan hasilnya.
 
 Tidak terjadi error
-![Output Praktikum 4](img/Spread_CFO_output7.png)
+![Output Praktikum 4](img/Prak4_langkah6.png)
 
-Collection For pada Dart memungkinkan penambahan elemen ke koleksi (list/set/map) secara langsung menggunakan perulangan di dalam deklarasi, sehingga kode lebih ringkas dan mudah dibaca dibandingkan menambah elemen list menggunakan loop di luar deklarasi
+Dart menggunakan Collection For untuk melakukan perulangan pada listOfInts dan menghasilkan List baru yang berisi elemen string dengan awalan #. Pernyataan assert digunakan untuk memastikan bahwa elemen kedua dari List adalah '#1'. Program berjalan tanpa error dan menghasilkan output [#0, #1, #2, #3].
 
 ## Praktikum 5: Eksperimen Tipe Data Records
 
