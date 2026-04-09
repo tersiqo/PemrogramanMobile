@@ -105,6 +105,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: .center,
           children: [
             const Text('You have pushed the button this many times:'),
+            const Text('Tersiqo Alfarezel. Kelas SIB2D, Absen 21'),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
