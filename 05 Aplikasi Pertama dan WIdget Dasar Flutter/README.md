@@ -34,7 +34,7 @@ Selesaikan Praktikum 1 sampai 5, lalu dokumentasikan dan push ke repository Anda
 ![Output Praktikum 3](img/Praktikum3_Langkah11.jpeg)
 ![Output Praktikum 3](img/Praktikum3_Langkah11(1).jpeg)
 
-### Langkah 11
+### Langkah 12
 ![Output Praktikum 3](img/Praktikum3_Langkah12.png)
 ![Output Praktikum 3](img/Praktikum3_Langkah12(1).png)
 
