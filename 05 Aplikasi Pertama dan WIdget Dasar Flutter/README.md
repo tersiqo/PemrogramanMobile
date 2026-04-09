@@ -20,16 +20,19 @@ Selesaikan Praktikum 1 sampai 5, lalu dokumentasikan dan push ke repository Anda
 ### Langkah 2
 ![Langkah 2](img/Praktikum1_Langkah2.jpeg)
 ### Langkah 3
-![Langkah 3]
+![Langkah 3](img/Praktikum1_Langkah3.jpeg)
 ### Langkah 4
-![Langkah 4]
+![Langkah 4](img/Praktikum1_Langkah4.jpeg)
 
 ### Praktikum 3
 **Github:**
 ![Output Praktikum 3](img/praktikum3_1.png)
 
 **Laporan images:**
-![Output Praktikum 3](img/praktikum3.png)
+![Output Praktikum 3](img/Praktikum3_Langkah11.jpeg)
+![Output Praktikum 3](img/Praktikum3_Langkah11(1).jpeg)
+
+
 
 ### Praktikum 4
 **Langkah 1 Text Widget**
