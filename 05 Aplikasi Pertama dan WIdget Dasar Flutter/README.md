@@ -120,7 +120,17 @@ Selesaikan Praktikum 1 sampai 5, lalu dokumentasikan dan push ke repository Anda
 
 **Langkah 2: Floating Action Button (FAB)**
 
-![Output Praktikum 5](img/praktikum5_2.jpeg)<br>
+**membuat file fab_Widget.dart**
+
+![Output Praktikum 5](img/Praktikum5_Langkah4.png)<br>
+
+**penyesuaian kode main.dart**
+
+![Output Praktikum 5](img/Praktikum5_Langkah5.png)<br>
+
+**hasil**
+
+![Output Praktikum 5](img/Praktikum5_Langkah6.jpg)<br>
 
 ## Soal 2
 Selesaikan Praktikum 2 dan Anda wajib menjalankan aplikasi hello_world pada perangkat fisik (device Android/iOS) agar Anda mempunyai pengalaman untuk menghubungkan ke perangkat fisik. Capture hasil aplikasi di perangkat, lalu buatlah laporan praktikum pada file `README.md`.
