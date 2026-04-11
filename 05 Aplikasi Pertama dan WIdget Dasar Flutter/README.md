@@ -28,16 +28,12 @@ Selesaikan Praktikum 1 sampai 5, lalu dokumentasikan dan push ke repository Anda
 ### Langkah 1 mengaktifkan proses debug usb
 ### di pengelolaan system, klik tentang ponsel lalu ketuk versi perangkat lunak 7 kali
 ![Langkah 1](img/Praktikum2_Langkah1.jpg)
-
 ### kembali ke pengelolaan system, lalu klik opsi developer
 ![Langkah 2](img/Praktikum2_Langkah2.jpg)
-
 ### aktifkan opsi pengembang
 ![Langkah 3](img/Praktikum2_Langkah3.jpg)
-
 ### aktifkan debugging usb
 ![Langkah 4](img/Praktikum2_Langkah4.jpg)
-
 ### di android studio, pergi ke setting lalu di android sdk, ketuk sdk tools, lalu centang google usb driver
 ![Langkah 5](img/Praktikum2_Langkah5.png)
 
@@ -45,13 +41,10 @@ Selesaikan Praktikum 1 sampai 5, lalu dokumentasikan dan push ke repository Anda
 
 ### sambungkan perangkat android ke komputer menggunakan kabel usb, lalu akan muncul notif dan tekan ya
 ![Langkah 6](img/Praktikum2_Langkah6.jpg)
-
 ### untuk memastikan apakah perangkat android sudah terhubung, pada terminal ketik flutter devices
 ![Langkah 7](img/Praktikum2_Langkah7.png)
-
 ### ketiik flutter run untuk menjalankan flutter
 ![Langkah 8](img/Praktikum2_Langkah8.png)
-
 ### tampilan setelah install aplikasi di android
 ![Langkah 9](img/Praktikum2_Langkah9.jpg)
 
@@ -59,7 +52,6 @@ Selesaikan Praktikum 1 sampai 5, lalu dokumentasikan dan push ke repository Anda
 
 ### buka android studio, view, pilih device manager, lalu pilih gambar wifi 
 ![Langkah 10](img/Praktikum2_Langkah10.png)
-
 ### di pengaturan opsi pengembang, aktifkan proses debug nirkabel
 ![Langkah 10](img/Praktikum2_Langkah11.jpg)
  
@@ -83,24 +75,18 @@ Selesaikan Praktikum 1 sampai 5, lalu dokumentasikan dan push ke repository Anda
 
 **membuat text_widget.dart**
 ![Output Praktikum 4](img/Praktikum4_Langkah1.png)
-
 **penyesuaian kode main.dart**
 ![Output Praktikum 4](img/Praktikum4_Langkah2.png)
-
 **hasil**
 ![Output Praktikum 4](img/Praktikum4_Langkah3.jpg)
 
 **Langkah 2 Image Widget**
-
 **membuat file image_widget.dart**
 ![Output Praktikum 4](img/Praktikum4_Langkah4.png)
-
 **penyesuaisan asset pada pubspec.yaml**
 ![Output Praktikum 4](img/Praktikum4_Langkah5.png)
-
 **penyesuaian kode main.dart**
 ![Output Praktikum 4](img/Praktikum4_Langkah6.png)
-
 **hasil**
 ![Output Praktikum 4](img/Praktikum4_langkah7.jpg)
 
@@ -109,10 +95,8 @@ Selesaikan Praktikum 1 sampai 5, lalu dokumentasikan dan push ke repository Anda
 
 **membuat file loading_cupertino.dart**
 ![Output Praktikum 5](img/Praktikum5_Langkah1.png)
-
 **penyesuaian kode main.dart**
 ![Output Praktikum 5](img/Praktikum5_Langkah2.png)
-
 **hasil**
 ![Output Praktikum 5](img/Praktikum5_Langkah3.jpg)
 
