@@ -168,6 +168,17 @@ Selesaikan Praktikum 1 sampai 5, lalu dokumentasikan dan push ke repository Anda
 ![Output Praktikum 5](img/Praktikum5_Langkah16.jpg)<br>
 ![Output Praktikum 5](img/Praktikum5_langkah17.jpg)<br>
 
+**Langkah 6: Date Time Pickers**
+
+**mengubah isi kode main.dart**
+
+![Output Praktikum 5](img/Praktikum5_Langkah18.png)<br>
+![Output Praktikum 5](img/Praktikum5_Langkah19.png)<br>
+
+**hasil**
+
+![Output Praktikum 5](img/Praktikum5_Langkah20.jpg)<br>
+![Output Praktikum 5](img/Praktikum5_Langkah21.jpg)<br>
 
 ## Soal 2
 Selesaikan Praktikum 2 dan Anda wajib menjalankan aplikasi hello_world pada perangkat fisik (device Android/iOS) agar Anda mempunyai pengalaman untuk menghubungkan ke perangkat fisik. Capture hasil aplikasi di perangkat, lalu buatlah laporan praktikum pada file `README.md`.
