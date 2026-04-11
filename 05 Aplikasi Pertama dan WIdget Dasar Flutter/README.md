@@ -81,16 +81,40 @@ Selesaikan Praktikum 1 sampai 5, lalu dokumentasikan dan push ke repository Anda
 ### Praktikum 4
 **Langkah 1 Text Widget**
 
+**membuat text_widget.dart**
 ![Output Praktikum 4](img/Praktikum4_Langkah1.png)
+
+**penyesuaian kode main.dart**
+![Output Praktikum 4](img/Praktikum4_Langkah2.png)
+
+**hasil**
+![Output Praktikum 4](img/Praktikum4_Langkah3.jpg)
 
 **Langkah 2 Image Widget**
 
-![Output Praktikum 4](img/praktikum4_2.jpeg)
+**membuat file image_widget.dart**
+![Output Praktikum 4](img/Praktikum4_Langkah4.png)
+
+**penyesuaisan asset pada pubspec.yaml**
+![Output Praktikum 4](img/Praktikum4_Langkah5.png)
+
+**penyesuaian kode main.dart**
+![Output Praktikum 4](img/Praktikum4_Langkah6.png)
+
+**hasil**
+![Output Praktikum 4](img/Praktikum4_langkah7.jpg)
 
 ### Praktikum 5
 **Langkah 1: Cupertino Button dan Loading Bar**
 
-![Output Praktikum 5](img/praktikum5_1.jpeg)
+**membuat file loading_cupertino.dart**
+![Output Praktikum 5](img/Praktikum5_Langkah1.png)
+
+**penyesuaian kode main.dart**
+![Output Praktikum 5](img/Praktikum5_Langkah2.png)
+
+**hasil**
+![Output Praktikum 5](img/Praktikum5_Langkah3.jpg)
 
 **Langkah 2: Floating Action Button (FAB)**
 

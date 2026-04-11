@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'basic_widget/text_widget.dart';
+import 'basic_widget/image_widget.dart';
+import 'basic_widget/loading_cupertino.dart';
+import 'basic_widget/fab_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -105,7 +108,7 @@ class _MyHomePageState extends State<MyHomePage> {
           // wireframe for each widget.
           mainAxisAlignment: .center,
           children: [
-            const MyTextWidget(),
+            const MyFabWidget(),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
