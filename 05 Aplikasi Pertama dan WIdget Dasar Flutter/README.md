@@ -4,8 +4,8 @@
 
 | Atribut | Nilai                        |
 | ------- | -----                        |
-| Nama    | Nanda Ricco Satria Indrawan  |
-| NIM     | 244107060058                 |
+| Nama    | Tersiqo Alfarezel            |
+| NIM     | 244107060089                 |
 | Kelas   | SIB-2D                       |
 ---
 
@@ -26,9 +26,43 @@ Selesaikan Praktikum 1 sampai 5, lalu dokumentasikan dan push ke repository Anda
 
 ### Praktikum 2
 ### Langkah 1 mengaktifkan proses debug usb
-### ketuk versi perangkat lunak 7 kali
+### di pengelolaan system, klik tentang ponsel lalu ketuk versi perangkat lunak 7 kali
 ![Langkah 1](img/Praktikum2_Langkah1.jpg)
 
+### kembali ke pengelolaan system, lalu klik opsi developer
+![Langkah 2](img/Praktikum2_Langkah2.jpg)
+
+### aktifkan opsi pengembang
+![Langkah 3](img/Praktikum2_Langkah3.jpg)
+
+### aktifkan debugging usb
+![Langkah 4](img/Praktikum2_Langkah4.jpg)
+
+### di android studio, pergi ke setting lalu di android sdk, ketuk sdk tools, lalu centang google usb driver
+![Langkah 5](img/Praktikum2_Langkah5.png)
+
+### Langkah 2 menjalankan aplikasi android menggunakan kabel usb
+
+### sambungkan perangkat android ke komputer menggunakan kabel usb, lalu akan muncul notif dan tekan ya
+![Langkah 6](img/Praktikum2_Langkah6.jpg)
+
+### untuk memastikan apakah perangkat android sudah terhubung, pada terminal ketik flutter devices
+![Langkah 7](img/Praktikum2_Langkah7.png)
+
+### ketiik flutter run untuk menjalankan flutter
+![Langkah 8](img/Praktikum2_Langkah8.png)
+
+### tampilan setelah install aplikasi di android
+![Langkah 9](img/Praktikum2_Langkah9.jpg)
+
+### langkah 3 menjalankan aplikasi menggunakan koneksi wifi
+
+### buka android studio, view, pilih device manager, lalu pilih gambar wifi 
+![Langkah 10](img/Praktikum2_Langkah10.png)
+
+### di pengaturan opsi pengembang, aktifkan proses debug nirkabel
+![Langkah 10](img/Praktikum2_Langkah11.jpg)
+ 
 ### Praktikum 3
 **Github:**
 ### Langkah 10
