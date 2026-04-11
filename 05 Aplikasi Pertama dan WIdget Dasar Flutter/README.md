@@ -145,6 +145,30 @@ Selesaikan Praktikum 1 sampai 5, lalu dokumentasikan dan push ke repository Anda
 **setelah di increment**
 ![Output Praktikum 5](img/Praktikum5_Langkah10.jpg)<br>
 
+**Langkah 4: Dialog Widget**
+
+**mengubah isi kode main.dart**
+
+![Output Praktikum 5](img/Praktikum5_Langkah11.png)<br>
+![Output Praktikum 5](img/Praktikum5_Langkah12.png)<br>
+
+**hasil**
+
+![Output Praktikum 5](img/Praktikum5_Langkah13.jpg)<br>
+![Output Praktikum 5](img/Praktikum5_Langkah14.jpg)<br>
+
+**Langkah 5: Input dan Selection Widget**
+
+**mengubah isi kode main.dart**
+
+![Output Praktikum 5](img/Praktikum5_Langkah15.png)<br>
+
+**hasil**
+
+![Output Praktikum 5](img/Praktikum5_Langkah16.jpg)<br>
+![Output Praktikum 5](img/Praktikum5_langkah17.jpg)<br>
+
+
 ## Soal 2
 Selesaikan Praktikum 2 dan Anda wajib menjalankan aplikasi hello_world pada perangkat fisik (device Android/iOS) agar Anda mempunyai pengalaman untuk menghubungkan ke perangkat fisik. Capture hasil aplikasi di perangkat, lalu buatlah laporan praktikum pada file `README.md`.
 
