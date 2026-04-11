@@ -24,6 +24,11 @@ Selesaikan Praktikum 1 sampai 5, lalu dokumentasikan dan push ke repository Anda
 ### Langkah 4
 ![Langkah 4](img/Praktikum1_Langkah4.jpeg)
 
+### Praktikum 2
+### Langkah 1 mengaktifkan proses debug usb
+### ketuk versi perangkat lunak 7 kali
+![Langkah 1](img/Praktikum2_Langkah1.jpg)
+
 ### Praktikum 3
 **Github:**
 ### Langkah 10
@@ -37,11 +42,12 @@ Selesaikan Praktikum 1 sampai 5, lalu dokumentasikan dan push ke repository Anda
 ### Langkah 12
 ![Output Praktikum 3](img/Praktikum3_Langkah12.png)
 ![Output Praktikum 3](img/Praktikum3_Langkah12(1).png)
+![Output Praktikum 3](img/Praktikum3_Langkah12(1).png)
 
 ### Praktikum 4
 **Langkah 1 Text Widget**
 
-![Output Praktikum 4](img/praktikum4_1.jpeg)
+![Output Praktikum 4](img/Praktikum4_Langkah1.png)
 
 **Langkah 2 Image Widget**
 
