@@ -74,6 +74,7 @@ Selesaikan Praktikum 1 sampai 5, lalu dokumentasikan dan push ke repository Anda
 **Langkah 1 Text Widget**
 
 **membuat text_widget.dart**
+
 ![Output Praktikum 4](img/Praktikum4_Langkah1.png)
 **penyesuaian kode main.dart**
 ![Output Praktikum 4](img/Praktikum4_Langkah2.png)
