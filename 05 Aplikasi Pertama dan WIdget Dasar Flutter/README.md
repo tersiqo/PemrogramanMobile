@@ -75,52 +75,52 @@ Selesaikan Praktikum 1 sampai 5, lalu dokumentasikan dan push ke repository Anda
 
 **membuat text_widget.dart**
 
-![Output Praktikum 4](img/Praktikum4_Langkah1.png)
+![Output Praktikum 4](img/Praktikum4_Langkah1.png)<br>
 
 **penyesuaian kode main.dart**
 
-![Output Praktikum 4](img/Praktikum4_Langkah2.png)
+![Output Praktikum 4](img/Praktikum4_Langkah2.png)<br>
 
 **hasil**
 
-![Output Praktikum 4](img/Praktikum4_Langkah3.jpg)
+![Output Praktikum 4](img/Praktikum4_Langkah3.jpg)<br>
 
 **Langkah 2 Image Widget**
 
 **membuat file image_widget.dart**
 
-![Output Praktikum 4](img/Praktikum4_Langkah4.png)
+![Output Praktikum 4](img/Praktikum4_Langkah4.png)<br>
 
 **penyesuaisan asset pada pubspec.yaml**
 
-![Output Praktikum 4](img/Praktikum4_Langkah5.png)
+![Output Praktikum 4](img/Praktikum4_Langkah5.png)<br>
 
 **penyesuaian kode main.dart**
 
-![Output Praktikum 4](img/Praktikum4_Langkah6.png)
+![Output Praktikum 4](img/Praktikum4_Langkah6.png)<br>
 
 **hasil**
 
-![Output Praktikum 4](img/Praktikum4_langkah7.jpg)
+![Output Praktikum 4](img/Praktikum4_langkah7.jpg)<br>
 
 ### Praktikum 5
 **Langkah 1: Cupertino Button dan Loading Bar**
 
 **membuat file loading_cupertino.dart**
 
-![Output Praktikum 5](img/Praktikum5_Langkah1.png)
+![Output Praktikum 5](img/Praktikum5_Langkah1.png)<br>
 
 **penyesuaian kode main.dart**
 
-![Output Praktikum 5](img/Praktikum5_Langkah2.png)
+![Output Praktikum 5](img/Praktikum5_Langkah2.png)<br>
 
 **hasil**
 
-![Output Praktikum 5](img/Praktikum5_Langkah3.jpg)
+![Output Praktikum 5](img/Praktikum5_Langkah3.jpg)<br>
 
 **Langkah 2: Floating Action Button (FAB)**
 
-![Output Praktikum 5](img/praktikum5_2.jpeg)
+![Output Praktikum 5](img/praktikum5_2.jpeg)<br>
 
 ## Soal 2
 Selesaikan Praktikum 2 dan Anda wajib menjalankan aplikasi hello_world pada perangkat fisik (device Android/iOS) agar Anda mempunyai pengalaman untuk menghubungkan ke perangkat fisik. Capture hasil aplikasi di perangkat, lalu buatlah laporan praktikum pada file `README.md`.
