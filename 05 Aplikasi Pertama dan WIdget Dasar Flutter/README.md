@@ -255,6 +255,24 @@ Selesaikan [Codelabs: Your first Flutter app](https://codelabs.developers.google
 
 ![Output Tugas](img/Tugas_Langkah12.png)
 
+**panggil metode getnext**
+
+![Output Tugas](img/Tugas_Langkah13.png)
+
+**hasil**
+
+![Output Tugas](img/Tugas_Langkah14.jpg)
+
+**setelah tombol ditekan, maka kata akan berganti acak**
+
+![Output Tugas](img/Tugas_Langkah15.jpg)
+
+**memperindah tampilan aplikasi**
+**setelah tombol ditekan, maka kata akan berganti acak**
+
+![Output Tugas](img/Tugas_Langkah15.jpg)
+
+
 ## Soal 5
 `README.md` berisi: capture hasil akhir tiap praktikum (*side-by-side*, bisa juga berupa file GIF agar terlihat proses perubahan ketika ada aksi dari pengguna) dengan menampilkan NIM dan Nama Anda sebagai ciri pekerjaan Anda.
 
