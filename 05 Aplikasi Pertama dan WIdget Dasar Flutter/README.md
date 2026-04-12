@@ -297,7 +297,46 @@ Selesaikan [Codelabs: Your first Flutter app](https://codelabs.developers.google
 
 **buat perubahan untuk metode build() bigcard**
 
-![Output Tugas](img/Tugas_Langkah24.jpg)<br>
+![Output Tugas](img/Tugas_Langkah25.png)<br>
+
+**hasil**
+
+![Output Tugas](img/Tugas_Langkah26.jpg)<br>
+
+
+**tulisannya masih terlalu kecil, buat perubahan untuk metode build() bigcard**
+
+![Output Tugas](img/Tugas_Langkah27.png)<br>
+
+**hasil**
+
+![Output Tugas](img/Tugas_Langkah28.jpg)<br>
+
+**tamahkan semantics table**
+
+![Output Tugas](img/Tugas_Langkah29.png)<br>
+
+**buat perubahan di metode build() MyHomePage**
+![Output Tugas](img/Tugas_Langkah30.png)<br>
+
+**hasil**
+
+![Output Tugas](img/Tugas_Langkah31.jpg)<br>
+
+**arahkan kursor ke kolom lalu pilih menu refactor, lalu klik wrap with center**
+![Output Tugas](img/Tugas_Langkah32.png)<br>
+![Output Tugas](img/Tugas_Langkah33.png)<br>
+
+**hasil**
+
+![Output Tugas](img/Tugas_Langkah34.jpg)<br>
+
+**perubahan opsional di MyHomePage**
+![Output Tugas](img/Tugas_Langkah35.png)<br>
+
+**hasil**
+
+![Output Tugas](img/Tugas_Langkah36.jpg)<br>
 
 ## Soal 5
 `README.md` berisi: capture hasil akhir tiap praktikum (*side-by-side*, bisa juga berupa file GIF agar terlihat proses perubahan ketika ada aksi dari pengguna) dengan menampilkan NIM dan Nama Anda sebagai ciri pekerjaan Anda.
