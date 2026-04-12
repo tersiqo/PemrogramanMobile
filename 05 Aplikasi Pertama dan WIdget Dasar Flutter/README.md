@@ -357,6 +357,37 @@ Selesaikan [Codelabs: Your first Flutter app](https://codelabs.developers.google
 
 ![Output Tugas](img/Tugas_Langkah42.jpg)<br>
 
+**menambahkan kolom samping navigasi**
+
+**select all MyHomePage dan gantikan dengan kode berikut**
+![Output Tugas](img/Tugas_Langkah43.png)<br>
+
+**hasil**
+
+![Output Tugas](img/Tugas_Langkah44.jpg)<br>
+
+**arahkan kursor ke MyHomePage pilih menu rafactor dan pilih convert to statefulwidget**
+![Output Tugas](img/Tugas_Langkah45.png)<br>
+![Output Tugas](img/Tugas_Langkah46.png)<br>
+
+**buat 3 perubahan berikut di MyHomePageState**
+![Output Tugas](img/Tugas_Langkah47.png)<br>
+
+**hasil**
+![Output Tugas](img/Tugas_Langkah48.jpg)<br>
+![Output Tugas](img/Tugas_Langkah49.jpg)<br>
+
+**tambahkan kode berikut diatas metode build _MyHomePageState, sebelum return scaffold**
+![Output Tugas](img/Tugas_Langkah50.png)<br>
+
+**tampilan _MyHomePageState setelah perubahan**
+![Output Tugas](img/Tugas_Langkah51.png)<br>
+
+**hasil**
+![Output Tugas](img/Tugas_Langkah52.jpg)<br>
+
+
+
 ## Soal 5
 `README.md` berisi: capture hasil akhir tiap praktikum (*side-by-side*, bisa juga berupa file GIF agar terlihat proses perubahan ketika ada aksi dari pengguna) dengan menampilkan NIM dan Nama Anda sebagai ciri pekerjaan Anda.
 
