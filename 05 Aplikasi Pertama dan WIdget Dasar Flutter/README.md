@@ -184,94 +184,120 @@ Selesaikan Praktikum 1 sampai 5, lalu dokumentasikan dan push ke repository Anda
 Selesaikan Praktikum 2 dan Anda wajib menjalankan aplikasi hello_world pada perangkat fisik (device Android/iOS) agar Anda mempunyai pengalaman untuk menghubungkan ke perangkat fisik. Capture hasil aplikasi di perangkat, lalu buatlah laporan praktikum pada file `README.md`.
 
 ### Praktikum 2
-![Output Praktikum 2](img/praktikum2.jpeg)
+![Output Praktikum 2](img/praktikum2.jpeg)<br>
 
 ## Soal 3
 Pada praktikum 5 mulai dari Langkah 3 sampai 6, buatlah file widget tersendiri di folder `basic_widgets`, kemudian pada file `main.dart` cukup melakukan import widget sesuai masing-masing langkah tersebut!
 
 **Langkah 3: Scaffold Widget**
 
-![Output Praktikum 5](img/praktikum5_3.jpeg)
+![Output Praktikum 5](img/praktikum5_3.jpeg)<br>
 
 **Langkah 4: Dialog Widget**
 
-![Output Praktikum 5](img/praktikum5_4.gif)
+![Output Praktikum 5](img/praktikum5_4.gif)<br>
 
 **Langkah 5: Input dan Selection Widget**
 
-![Output Praktikum 5](img/praktikum5_5.gif)
+![Output Praktikum 5](img/praktikum5_5.gif)<br>
 
 **Langkah 6: Date and Time Pickers**
 
-![Output Praktikum 5](img/praktikum5_6.gif)
+![Output Praktikum 5](img/praktikum5_6.gif)<br>
 
 ## Tugas Praktikum
 Selesaikan [Codelabs: Your first Flutter app](https://codelabs.developers.google.com/codelabs/first-flutter-app-pt1), lalu buatlah laporan praktikumya dan push ke repository GitHub Anda!
 
 **Membuat Projek**
 
-![Output Tugas](img/Tugas_Langkah1.png)
-![Output Tugas](img/Tugas_Langkah2.png)
+![Output Tugas](img/Tugas_Langkah1.png)<br>
+![Output Tugas](img/Tugas_Langkah2.png)<br>
 
 **Mengganti isi kode pada pubspec.yaml**
 
-![Output Tugas](img/Tugas_Langkah3.png)
+![Output Tugas](img/Tugas_Langkah3.png)<br>
 
 **Mengganti isi kode pada analysis_option.yaml**
 
-![Output Tugas](img/Tugas_Langkah4.png)
+![Output Tugas](img/Tugas_Langkah4.png)<br>
 
 **Mengganti isi kode pada main.dart**
 
-![Output Tugas](img/Tugas_Langkah5.png)
+![Output Tugas](img/Tugas_Langkah5.png)<br>
 
 **Menambahkan Tombol**
 
 **Jalankan Aplikasi**
 
-![Output Tugas](img/Tugas_Langkah6.jpg)
+![Output Tugas](img/Tugas_Langkah6.jpg)<br>
 
 **di bawah lib/main.dart Tambahkan sesuatu pada string di objek Text pertama**
 
-![Output Tugas](img/Tugas_Langkah7.png)
+![Output Tugas](img/Tugas_Langkah7.png)<br>
 
 **hasil**
 
-![Output Tugas](img/Tugas_Langkah8.jpg)
+![Output Tugas](img/Tugas_Langkah8.jpg)<br>
 
 **Tambahkan tombol di bagian bawah kolom**
 
-![Output Tugas](img/Tugas_Langkah9.png)
+![Output Tugas](img/Tugas_Langkah9.png)<br>
 
 **hasil**
 
-![Output Tugas](img/Tugas_Langkah10.jpg)
+![Output Tugas](img/Tugas_Langkah10.jpg)<br>
 
 **ketika tombol dipencet**
 
-![Output Tugas](img/Tugas_Langkah11.png)
+![Output Tugas](img/Tugas_Langkah11.png)<br>
 
 **di MyAppState, tambahkan metode getnext**
 
-![Output Tugas](img/Tugas_Langkah12.png)
+![Output Tugas](img/Tugas_Langkah12.png)<br>
 
 **panggil metode getnext**
 
-![Output Tugas](img/Tugas_Langkah13.png)
+![Output Tugas](img/Tugas_Langkah13.png)<br>
 
 **hasil**
 
-![Output Tugas](img/Tugas_Langkah14.jpg)
+![Output Tugas](img/Tugas_Langkah14.jpg)<br>
 
 **setelah tombol ditekan, maka kata akan berganti acak**
 
-![Output Tugas](img/Tugas_Langkah15.jpg)
+![Output Tugas](img/Tugas_Langkah15.jpg)<br>
 
 **memperindah tampilan aplikasi**
-**setelah tombol ditekan, maka kata akan berganti acak**
+**tulis ulang MyHomePage**
 
-![Output Tugas](img/Tugas_Langkah15.jpg)
+![Output Tugas](img/Tugas_Langkah16.png)<br>
 
+**Arahakan kursor ke potongan kode "text" pilih menu refactor lalu pilih extract widget, lalu buat nama BigCard**
+
+![Output Tugas](img/Tugas_Langkah17.png)<br>
+![Output Tugas](img/Tugas_Langkah18.png)<br>
+
+**Class baru otomatis terbuat**
+
+![Output Tugas](img/Tugas_Langkah19.png)<br>
+
+**Temukan metode build di class bigcard, lalu panggil menu refactor lalu pilih wrap with padding, tingkatkan nilai padding dari 8.0 ke 20**
+
+![Output Tugas](img/Tugas_Langkah20.png)<br>
+![Output Tugas](img/Tugas_Langkah21.png)<br>
+
+**Arahakan kursor ke widget padding pilih menu refactor lalu pilih wrap with widget, lalu ketikkan card dan enter**
+
+![Output Tugas](img/Tugas_Langkah22.png)<br>
+![Output Tugas](img/Tugas_Langkah23.png)<br>
+
+**hasil**
+
+![Output Tugas](img/Tugas_Langkah24.jpg)<br>
+
+**buat perubahan untuk metode build() bigcard**
+
+![Output Tugas](img/Tugas_Langkah24.jpg)<br>
 
 ## Soal 5
 `README.md` berisi: capture hasil akhir tiap praktikum (*side-by-side*, bisa juga berupa file GIF agar terlihat proses perubahan ketika ada aksi dari pengguna) dengan menampilkan NIM dan Nama Anda sebagai ciri pekerjaan Anda.
