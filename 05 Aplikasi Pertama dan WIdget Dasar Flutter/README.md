@@ -205,28 +205,55 @@ Pada praktikum 5 mulai dari Langkah 3 sampai 6, buatlah file widget tersendiri d
 
 ![Output Praktikum 5](img/praktikum5_6.gif)
 
-## Soal 4
+## Tugas Praktikum
 Selesaikan [Codelabs: Your first Flutter app](https://codelabs.developers.google.com/codelabs/first-flutter-app-pt1), lalu buatlah laporan praktikumya dan push ke repository GitHub Anda!
 
-**Add a button**
+**Membuat Projek**
 
-![Output Soal 4](img/button.gif)
+![Output Tugas](img/Tugas_Langkah1.png)
+![Output Tugas](img/Tugas_Langkah2.png)
 
-**Make the app prettier**
+**Mengganti isi kode pada pubspec.yaml**
 
-![Output Soal 4](img/prettier.gif)
+![Output Tugas](img/Tugas_Langkah3.png)
 
-**Add functionality**
+**Mengganti isi kode pada analysis_option.yaml**
 
-![Output Soal 4](img/functionality.gif)
+![Output Tugas](img/Tugas_Langkah4.png)
 
-**Add navigation rail**
+**Mengganti isi kode pada main.dart**
 
-![Output Soal 4](img/navigation.gif)
+![Output Tugas](img/Tugas_Langkah5.png)
 
-**Add a new page**
+**Menambahkan Tombol**
 
-![Output Soal 4](img/newpage.gif)
+**Jalankan Aplikasi**
+
+![Output Tugas](img/Tugas_Langkah6.jpg)
+
+**di bawah lib/main.dart Tambahkan sesuatu pada string di objek Text pertama**
+
+![Output Tugas](img/Tugas_Langkah7.png)
+
+**hasil**
+
+![Output Tugas](img/Tugas_Langkah8.jpg)
+
+**Tambahkan tombol di bagian bawah kolom**
+
+![Output Tugas](img/Tugas_Langkah9.png)
+
+**hasil**
+
+![Output Tugas](img/Tugas_Langkah10.jpg)
+
+**ketika tombol dipencet**
+
+![Output Tugas](img/Tugas_Langkah11.png)
+
+**di MyAppState, tambahkan metode getnext**
+
+![Output Tugas](img/Tugas_Langkah12.png)
 
 ## Soal 5
 `README.md` berisi: capture hasil akhir tiap praktikum (*side-by-side*, bisa juga berupa file GIF agar terlihat proses perubahan ketika ada aksi dari pengguna) dengan menampilkan NIM dan Nama Anda sebagai ciri pekerjaan Anda.
