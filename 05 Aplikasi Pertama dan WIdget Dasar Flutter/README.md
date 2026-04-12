@@ -386,6 +386,19 @@ Selesaikan [Codelabs: Your first Flutter app](https://codelabs.developers.google
 **hasil**
 ![Output Tugas](img/Tugas_Langkah52.jpg)<br>
 
+**arahkan kursor ke scaffold dan pillih refactor lalu klik wrap with builders**
+![Output Tugas](img/Tugas_Langkah53.png)<br>
+![Output Tugas](img/Tugas_Langkah54.png)<br>
+
+**Buat perubahan baris tunggal berikut untuk metode build _MyHomePageState**
+![Output Tugas](img/Tugas_Langkah55.png)<br>
+
+**hasil**
+![Output Tugas](img/Tugas_Langkah56.png)<br>
+![Output Tugas](img/Tugas_Langkah57.png)<br>
+
+
+
 
 
 ## Soal 5
