@@ -338,6 +338,25 @@ Selesaikan [Codelabs: Your first Flutter app](https://codelabs.developers.google
 
 ![Output Tugas](img/Tugas_Langkah36.jpg)<br>
 
+**menambahkan fungsi**
+
+**tambahkan kode berikut  di MyAppState**
+![Output Tugas](img/Tugas_Langkah37.png)<br>
+
+**arahkan kursor ke ElevatedButton dan pilih menu refactor lalu pilih Wrap with Row**
+![Output Tugas](img/Tugas_Langkah38.png)<br>
+![Output Tugas](img/Tugas_Langkah39.png)<br>
+
+**Tambahkan kode berikut**
+![Output Tugas](img/Tugas_Langkah40.png)<br>
+
+**Tambahkan tombol like dan hubungkan toggle favorite**
+![Output Tugas](img/Tugas_Langkah41.png)<br>
+
+**hasil**
+
+![Output Tugas](img/Tugas_Langkah42.jpg)<br>
+
 ## Soal 5
 `README.md` berisi: capture hasil akhir tiap praktikum (*side-by-side*, bisa juga berupa file GIF agar terlihat proses perubahan ketika ada aksi dari pengguna) dengan menampilkan NIM dan Nama Anda sebagai ciri pekerjaan Anda.
 
