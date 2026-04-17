@@ -292,7 +292,7 @@ Selesaikan [Codelabs: Your first Flutter app](https://codelabs.developers.google
 
 ![Output Tugas](img/Tugas_Langkah29.png)<br>
 
-**buat perubahan di metode build() MyHomePage**
+**buat perubahan di metode build() MyHomePage**<br>
 ![Output Tugas](img/Tugas_Langkah30.png)<br>
 
 **hasil**
