@@ -142,7 +142,7 @@ Selesaikan Praktikum 1 sampai 5, lalu dokumentasikan dan push ke repository Anda
 **hasil**
 
 ![Output Praktikum 5](img/Praktikum5_Langkah9.jpg)<br>
-**setelah di increment**
+**setelah di increment**<br>
 ![Output Praktikum 5](img/Praktikum5_Langkah10.jpg)<br>
 
 **Langkah 4: Dialog Widget**
@@ -180,30 +180,6 @@ Selesaikan Praktikum 1 sampai 5, lalu dokumentasikan dan push ke repository Anda
 ![Output Praktikum 5](img/Praktikum5_Langkah20.jpg)<br>
 ![Output Praktikum 5](img/Praktikum5_Langkah21.jpg)<br>
 
-## Soal 2
-Selesaikan Praktikum 2 dan Anda wajib menjalankan aplikasi hello_world pada perangkat fisik (device Android/iOS) agar Anda mempunyai pengalaman untuk menghubungkan ke perangkat fisik. Capture hasil aplikasi di perangkat, lalu buatlah laporan praktikum pada file `README.md`.
-
-### Praktikum 2
-![Output Praktikum 2](img/praktikum2.jpeg)<br>
-
-## Soal 3
-Pada praktikum 5 mulai dari Langkah 3 sampai 6, buatlah file widget tersendiri di folder `basic_widgets`, kemudian pada file `main.dart` cukup melakukan import widget sesuai masing-masing langkah tersebut!
-
-**Langkah 3: Scaffold Widget**
-
-![Output Praktikum 5](img/praktikum5_3.jpeg)<br>
-
-**Langkah 4: Dialog Widget**
-
-![Output Praktikum 5](img/praktikum5_4.gif)<br>
-
-**Langkah 5: Input dan Selection Widget**
-
-![Output Praktikum 5](img/praktikum5_5.gif)<br>
-
-**Langkah 6: Date and Time Pickers**
-
-![Output Praktikum 5](img/praktikum5_6.gif)<br>
 
 ## Tugas Praktikum
 Selesaikan [Codelabs: Your first Flutter app](https://codelabs.developers.google.com/codelabs/first-flutter-app-pt1), lalu buatlah laporan praktikumya dan push ke repository GitHub Anda!
@@ -400,9 +376,3 @@ Selesaikan [Codelabs: Your first Flutter app](https://codelabs.developers.google
 
 
 
-
-## Soal 5
-`README.md` berisi: capture hasil akhir tiap praktikum (*side-by-side*, bisa juga berupa file GIF agar terlihat proses perubahan ketika ada aksi dari pengguna) dengan menampilkan NIM dan Nama Anda sebagai ciri pekerjaan Anda.
-
-## Soal 6
-Kumpulkan berupa link repository/commit GitHub Anda kepada dosen yang telah disepakati!
