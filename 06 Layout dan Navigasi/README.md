@@ -1,8 +1,8 @@
 # Laporan Praktikum 06 : Layout dan Navigasi
 
-Nama    : Sofiah <br>
-NIM     : 244107060065 <br>
-Absen   : 20 <br>
+Nama    : Tersiqo Alfarezel <br>
+NIM     : 244107060089 <br>
+Absen   : 21 <br>
 
 ## Praktikum 1: Membangun Layout di Flutter
 1. Langkah 1: Buat Project Baru<br>
