@@ -58,7 +58,7 @@ Hasil<br>
 3. Langkah 3: Terakhir, ubah menjadi ListView <br>
 ![prak4langkah3](img/Praktikum_Langkah_16.png)<br>
 Hasil<br>
-![prak4langkah3](img/Praktikum_Langkah_17.jpgg)<br>
+![prak4langkah3](img/Praktikum_Langkah_17.jpg)<br>
 
 ## Tugas Praktikum 1
 1. Selesaikan Praktikum 1 sampai 4, lalu dokumentasikan dan push ke repository Anda berupa screenshot setiap hasil pekerjaan beserta penjelasannya di file README.md!
