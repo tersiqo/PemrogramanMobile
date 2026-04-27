@@ -60,6 +60,7 @@ Hasil<br>
 Hasil<br>
 ![prak4langkah3](img/Praktikum_Langkah_17.jpg)<br>
 
+
 ## Tugas Praktikum 1
 1. Selesaikan Praktikum 1 sampai 4, lalu dokumentasikan dan push ke repository Anda berupa screenshot setiap hasil pekerjaan beserta penjelasannya di file README.md!
 2. Silakan implementasikan di project baru "basic_layout_flutter" dengan mengakses sumber ini: https://docs.flutter.dev/codelabs/layout-basics
@@ -69,3 +70,40 @@ Hasil<br>
 ![tugas_prak1](img/Praktikum_Langkah_20.png)<br>
 ![tugas_prak1](img/Praktikum_Langkah_21.png)<br>
 ![tugas_prak1](img/Praktikum_Langkah_22.jpg)<br>
+3. Kumpulkan link commit repository GitHub Anda kepada dosen yang telah disepakati!<br>
+
+# Praktikum 5: Membangun Navigasi di Flutter
+
+- Langkah 1: Siapkan project baru<br>
+
+![Output Praktikum 5](img/Praktikum_Langkah_23.png)<br>
+
+- Langkah 2: Mendefinisikan Route<br>
+
+![Output Praktikum 5](img/Praktikum_Langkah_24.png)<br>
+![Output Praktikum 5](img/Praktikum_Langkah_25.png)<br>
+
+- Langkah 3: Lengkapi Kode di main.dart<br>
+
+![Output Praktikum 5](img/Praktikum_Langkah_26.png)<br>
+
+- Langkah 4: Membuat data model<br>
+
+![Output Praktikum 5](img/Praktikum_Langkah_27.png)<br>
+
+- Langkah 5: Lengkapi kode di class HomePage<br>
+
+![Output Praktikum 5](img/Praktikum_Langkah_28.png)<br>
+
+- Langkah 6: Membuat ListView dan itemBuilder<br>
+
+![Output Praktikum 5](img/Praktikum_Langkah_29.png)<br>
+![Output Praktikum 5](img/Praktikum_Langkah_30.jpg)<br>
+
+- Langkah 7: Menambahkan aksi pada ListView<br>
+
+![Output Praktikum 5](img/Praktikum_Langkah_31.png)<br>
+- sebelum di klik<br>
+![Output Praktikum 5](img/Praktikum_Langkah_32.jpg)<br>
+- sesudah di klik<br>
+![Output Praktikum 5](img/Praktikum_Langkah_33.jpg)<br>
