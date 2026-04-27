@@ -64,4 +64,8 @@ Hasil<br>
 1. Selesaikan Praktikum 1 sampai 4, lalu dokumentasikan dan push ke repository Anda berupa screenshot setiap hasil pekerjaan beserta penjelasannya di file README.md!
 2. Silakan implementasikan di project baru "basic_layout_flutter" dengan mengakses sumber ini: https://docs.flutter.dev/codelabs/layout-basics
 - Tambah bagian grid untuk rekomendasi wisata lainnya <br>
-![tugas_prak1](img/tugas_prak1/TugasNomor2.jpeg)<br>
+![tugas_prak1](img/Praktikum_Langkah_18.png)<br>
+![tugas_prak1](img/Praktikum_Langkah_19.png)<br>
+![tugas_prak1](img/Praktikum_Langkah_20.png)<br>
+![tugas_prak1](img/Praktikum_Langkah_21.png)<br>
+![tugas_prak1](img/Praktikum_Langkah_22.jpg)<br>

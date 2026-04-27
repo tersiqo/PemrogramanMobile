@@ -89,7 +89,7 @@ class MyApp extends StatelessWidget {
                   ),
                   child: ClipRRect(
                     borderRadius: BorderRadius.circular(8),
-                    child: Image.asset('images/', fit: BoxFit.cover),
+                    child: Image.asset('images/gunung_bromo.jpg', fit: BoxFit.cover),
                   ),
                 ),
               ),
@@ -102,7 +102,7 @@ class MyApp extends StatelessWidget {
                   ),
                   child: ClipRRect(
                     borderRadius: BorderRadius.circular(8),
-                    child: Image.asset('images/Gunung_buthak.jpg', fit: BoxFit.cover),
+                    child: Image.asset('images/gunung_semeru.jpg', fit: BoxFit.cover),
                   ),
                 ),
               ),
@@ -115,7 +115,7 @@ class MyApp extends StatelessWidget {
                   ),
                   child: ClipRRect(
                     borderRadius: BorderRadius.circular(8),
-                    child: Image.asset('images/Gunung_budugasu.jpeg', fit: BoxFit.cover),
+                    child: Image.asset('images/gunung_slamet.jpg', fit: BoxFit.cover),
                   ),
                 ),
               ),
