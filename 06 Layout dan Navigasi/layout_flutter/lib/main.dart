@@ -68,6 +68,64 @@ class MyApp extends StatelessWidget {
       ),
     );
 
+      Widget recommendationSection = Container(
+    padding: const EdgeInsets.all(16),
+    child: Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        const Text(
+          'Rekomendasi Gunung Lain',
+            style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+          ),
+          const SizedBox(height: 16),
+          Row(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              Expanded(
+                child: Container(
+                  height: 120,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(8),
+                  ),
+                  child: ClipRRect(
+                    borderRadius: BorderRadius.circular(8),
+                    child: Image.asset('images/', fit: BoxFit.cover),
+                  ),
+                ),
+              ),
+              const SizedBox(width: 8),
+              Expanded(
+                child: Container(
+                  height: 120,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(8),
+                  ),
+                  child: ClipRRect(
+                    borderRadius: BorderRadius.circular(8),
+                    child: Image.asset('images/Gunung_buthak.jpg', fit: BoxFit.cover),
+                  ),
+                ),
+              ),
+              const SizedBox(width: 8),
+              Expanded(
+                child: Container(
+                  height: 120,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(8),
+                  ),
+                  child: ClipRRect(
+                    borderRadius: BorderRadius.circular(8),
+                    child: Image.asset('images/Gunung_budugasu.jpeg', fit: BoxFit.cover),
+                  ),
+                ),
+              ),
+            ],
+          ),
+        ],
+      ),
+    );
+    
+
     return MaterialApp(
       title: 'Flutter layout: Tersiqo Alfarezel 244107060089',
       home: Scaffold(
@@ -85,6 +143,7 @@ class MyApp extends StatelessWidget {
             titleSection,
             buttonSection,
             textSection,
+            recommendationSection,
           ],
         ),
       ),
