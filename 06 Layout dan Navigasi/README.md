@@ -157,7 +157,7 @@ final itemArgs = ModalRoute.of(context)!.settings.arguments as Item;
 ![Output Tugas 2](img/Praktikum_Langkah_46.png)<br>
 
 ## hasil
-![Output Tugas 2](img/Praktikum_Langkah_47.mp4)<br>
+![Output Tugas 2](img/Praktikum_Langkah_47.gif)<br>
 
 
 ## 5. Sesuaikan dan modifikasi tampilan sehingga menjadi aplikasi yang menarik. Selain itu, pecah widget menjadi kode yang lebih kecil. Tambahkan Nama dan NIM di footer aplikasi belanja Anda.
