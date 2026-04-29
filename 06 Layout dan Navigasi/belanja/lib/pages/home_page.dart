@@ -31,6 +31,34 @@ class HomePage extends StatelessWidget {
     stock: 2,
     rating: 4.1,
   ),
+  Item(
+    name: 'Tea',
+    price: 4000,
+    image: 'images/tea.jpg',
+    stock: 25,
+    rating: 4.4,
+  ),
+  Item(
+    name: 'Milk',
+    price: 8000,
+    image: 'images/milk.jpg',
+    stock: 10,
+    rating: 5.0,
+  ),
+  Item(
+    name: 'Oil',
+    price: 12000,
+    image: 'images/oil.jpg',
+    stock: 20,
+    rating: 4.8,
+  ),
+  Item(
+    name: 'Coffe',
+    price: 5000,
+    image: 'images/coffe.jpg',
+    stock: 4,
+    rating: 4.0,
+  ),
 ];
 
   @override
@@ -41,67 +69,48 @@ Widget build(BuildContext context) {
       backgroundColor: Colors.blue,
     ),
 
-   body: GridView.builder(
+body: Column(
+  children: [
+    Expanded(
+      child: GridView.builder(
         padding: const EdgeInsets.all(8),
         gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-          crossAxisCount: 2, 
+          crossAxisCount: 2,
           crossAxisSpacing: 8,
           mainAxisSpacing: 8,
-          childAspectRatio: 0.75,
         ),
         itemCount: items.length,
         itemBuilder: (context, index) {
           final item = items[index];
-
           return InkWell(
             onTap: () {
               Navigator.pushNamed(context, '/item', arguments: item);
             },
             child: Card(
-              elevation: 3,
               child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-
-                  //Gambar
                   Expanded(
-                  child: Hero(
-                    tag: item.name,
-                    child: Image.asset(
-                      item.image,
-                      fit: BoxFit.cover,
-                      width: double.infinity,
-                    ),
+                    child: Image.asset(item.image, fit: BoxFit.cover),
                   ),
-                ),
-
-                  //Info produk
-                  Padding(
-                    padding: const EdgeInsets.all(8),
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text(item.name,
-                            style: const TextStyle(
-                                fontWeight: FontWeight.bold)),
-                        Text('Rp ${item.price}'),
-                        Text('Stok: ${item.stock}'),
-                        Row(
-                          children: [
-                            const Icon(Icons.star,
-                                color: Colors.orange, size: 16),
-                            Text('${item.rating}'),
-                          ],
-                        ),
-                      ],
-                    ),
-                  ),
+                  Text(item.name),
                 ],
               ),
             ),
           );
         },
       ),
+    ),
+
+    // FOOTER
+    Container(
+      padding: const EdgeInsets.all(12),
+      child: const Text(
+        'Tersiqo Alfarezel - 244107060089',
+        style: TextStyle(color: Colors.grey),
+      ),
+    ),
+  ],
+),
     );
   }
 }

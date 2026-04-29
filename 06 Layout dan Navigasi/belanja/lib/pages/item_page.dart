@@ -33,6 +33,16 @@ class ItemPage extends StatelessWidget {
         children: [
           const Icon(Icons.star, color: Colors.orange),
           Text('${item.rating}'),
+            const Spacer(),
+
+    //FOOTER
+    Container(
+      padding: const EdgeInsets.all(12),
+      child: const Text(
+        'Tersiqo Alfarezel - 244107060089',
+        style: TextStyle(color: Colors.grey),
+      ),
+    )
         ],
       ),
     ],

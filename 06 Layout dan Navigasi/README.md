@@ -162,7 +162,13 @@ final itemArgs = ModalRoute.of(context)!.settings.arguments as Item;
 
 ## 5. Sesuaikan dan modifikasi tampilan sehingga menjadi aplikasi yang menarik. Selain itu, pecah widget menjadi kode yang lebih kecil. Tambahkan Nama dan NIM di footer aplikasi belanja Anda.
 
+## tambahkan footer di homepage
+![Output Tugas 2](img/Praktikum_Langkah_48.png)<br>
 
+## tambahkan footer di itempage
+![Output Tugas 2](img/Praktikum_Langkah_49.png)<br>
 
+## hasil
+![Output Tugas 2](img/Praktikum_Langkah_50.jpg)<br>
 ## 6. Selesaikan Praktikum 5: Navigasi dan Rute tersebut. Cobalah modifikasi menggunakan plugin go_router, lalu dokumentasikan dan push ke repository Anda berupa screenshot setiap hasil pekerjaan beserta penjelasannya di file README.md. Kumpulkan link commit repository GitHub Anda kepada dosen yang telah disepakati!
 
