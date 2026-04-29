@@ -107,3 +107,170 @@ Hasil<br>
 ![Output Praktikum 5](img/Praktikum_Langkah_32.jpg)<br>
 - sesudah di klik<br>
 ![Output Praktikum 5](img/Praktikum_Langkah_33.jpg)<br>
+
+# Tugas Praktikum 2
+
+## 1. Untuk melakukan pengiriman data ke halaman berikutnya, cukup menambahkan informasi arguments pada penggunaan Navigator. Perbarui kode pada bagian Navigator menjadi seperti berikut.
+
+```dart
+Navigator.pushNamed(context, '/item', arguments: item);
+```
+
+![Output Tugas 2](img/Praktikum_Langkah_34.png)<br>
+
+## 2. Pembacaan nilai yang dikirimkan pada halaman sebelumnya dapat dilakukan menggunakan ModalRoute. Tambahkan kode berikut pada blok fungsi build dalam halaman ItemPage. Setelah nilai didapatkan, anda dapat menggunakannya seperti penggunaan variabel pada umumnya. (https://docs.flutter.dev/cookbook/navigation/navigate-with-arguments)
+
+```dart
+final itemArgs = ModalRoute.of(context)!.settings.arguments as Item;
+```
+
+![Output Tugas 2](img/Praktikum_Langkah_35.png)<br>
+![Output Tugas 2](img/Praktikum_Langkah_36.jpg)<br>
+
+## 3. Pada hasil akhir dari aplikasi belanja yang telah anda selesaikan, tambahkan atribut foto produk, stok, dan rating. Ubahlah tampilan menjadi GridView seperti di aplikasi marketplace pada umumnya.
+
+## update model item<br>
+![Output Tugas 2](img/Praktikum_Langkah_37.png)<br>
+
+## update data di homepage<br>
+![Output Tugas 2](img/Praktikum_Langkah_38.png)<br>
+
+## uubah dari listview jadi gridview<br>
+![Output Tugas 2](img/Praktikum_Langkah_39.png)<br>
+![Output Tugas 2](img/Praktikum_Langkah_40.png)<br>
+
+## update itempage<br>
+![Output Tugas 2](img/Praktikum_Langkah_41.png)<br>
+
+## update pubspec<br>
+![Output Tugas 2](img/Praktikum_Langkah_42.png)<br>
+
+## hasil<br>
+![Output Tugas 2](img/Praktikum_Langkah_43.jpg)<br>
+![Output Tugas 2](img/Praktikum_Langkah_44.jpg)<br>
+## 4. Silakan implementasikan Hero widget pada aplikasi belanja Anda dengan mempelajari dari sumber ini: https://docs.flutter.dev/cookbook/navigation/hero-animations
+
+## tambahkan hero di gambar produk homepage
+![Output Tugas 2](img/Praktikum_Langkah_45.png)<br>
+
+## tambahkan hero di gambar produk itempage
+![Output Tugas 2](img/Praktikum_Langkah_46.png)<br>
+
+## hasil
+![Output Tugas 2](img/Praktikum_Langkah_47.mp4)<br>
+
+
+## 5. Sesuaikan dan modifikasi tampilan sehingga menjadi aplikasi yang menarik. Selain itu, pecah widget menjadi kode yang lebih kecil. Tambahkan Nama dan NIM di footer aplikasi belanja Anda.
+
+- **Ubah app bar pada home page**
+
+![Output Tugas 2](img/tugas5.png)
+
+- **Outputnya**
+
+![Output Tugas 2](img/tugas5_1.jpeg)
+
+## 6. Selesaikan Praktikum 5: Navigasi dan Rute tersebut. Cobalah modifikasi menggunakan plugin go_router, lalu dokumentasikan dan push ke repository Anda berupa screenshot setiap hasil pekerjaan beserta penjelasannya di file README.md. Kumpulkan link commit repository GitHub Anda kepada dosen yang telah disepakati!
+
+- **Tambahkan code ini di yaml**
+``` dart
+go_router: ^14.2.7
+```
+
+- **Lakukan pub get agar bisa digunakan**
+
+![Output Tugas 2](img/tugas6.png)
+
+- **Konfigurasi go_router di dalam lib/router/go_router.dart**
+``` dart
+import 'package:flutter/material.dart';
+import 'package:belanja/pages/home_page.dart';
+import 'package:belanja/pages/item_page.dart';
+import 'package:go_router/go_router.dart';                            // Import GoRouter package
+import 'package:belanja/models/item.dart';
+
+class AppRouter {
+  static final _router = GoRouter(                                   // Konfigurasi GoRouter
+    initialLocation: '/',                                           // Route awal  
+    routes: [
+      //HomePage route
+      GoRoute(                                                      // Definisi untuk HomePage
+        path: '/',                                                  // Path untuk HomePage
+        builder: (context, state) => MyHomePage()),                 // Builder untuk HomePage                       
+      
+      //ItemPage route
+      GoRoute(                                                      // Definisi untuk ItemPage
+        path: '/item',                                              // Path sederhana untuk ItemPage
+        builder: (context, state) {
+          final item = state.extra as Item;                         // Mengambil data Item dari state.extra
+          return MyItemPage(item: item);                            // Passing data Item ke ItemPage
+        },
+      ),
+    ],
+    // Error handling
+    errorBuilder: (context, state) => Scaffold(                     // Error Handling
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Icon(Icons.error_outline, size: 64, color: Colors.red),
+            SizedBox(height: 16),
+            Text(
+              'Page not found!',
+              style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+            ),
+            SizedBox(height: 8),
+            Text('Error: ${state.error}'),
+            SizedBox(height: 16),
+            ElevatedButton(
+              onPressed: () => context.go('/'),                     // Navigasi kembali ke HomePage
+              child: Text('Go Home'),
+            ),
+          ],
+        ),
+      ),
+    ),
+  );
+
+  static GoRouter get router => _router;              // Getter untuk mengakses router di seluruh aplikasi
+}
+```
+
+- **Main nya**
+```dart
+import 'package:flutter/material.dart';
+import 'package:belanja/router/go_router.dart';   // Import go_router
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp.router(              
+      title: 'Belanja App - Go Router',
+      debugShowCheckedModeBanner: false,
+      routerConfig: AppRouter.router,       // konfigurasi router dari AppRouter
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+        useMaterial3: true,
+      ),
+    );
+  }
+}
+```
+
+- **Navigasi di HomePage menggunakan context.push**
+
+import go_router
+
+![Output Tugas 2](img/tugas6_1.png)
+
+lalu ubah return InkWellnya
+
+![Output Tugas 2](img/tugas6_2.png)
+
+- **Hasilnya akan tetap sama**
+
+![Output Tugas 2](img/tugas6_3.gif)
