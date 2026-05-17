@@ -1,8 +1,26 @@
 import 'package:flutter/material.dart';
+import 'package:camera/camera.dart';
+import 'widget/takepicture_screen.dart';
 
-void main() {
-  runApp(const MyApp());
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  final cameras = await availableCameras();
+
+  final firstCamera = cameras.first;
+
+  runApp(
+  MaterialApp(
+    debugShowCheckedModeBanner: false,
+    theme: ThemeData.dark(),
+    home: TakePictureScreen(
+      camera: firstCamera,
+    ),
+  ),
+);
 }
+
+
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
