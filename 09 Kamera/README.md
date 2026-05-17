@@ -7,7 +7,7 @@ Absen   : 21 <br>
 1. Langkah 1: Buat Project Baru<br>
 ![prak1langkah1](img/Praktikum_Langkah_1.png)<br>
 
-2. Langkah 2: Menambahkan Plugin<br>
+2. Langkah 2: Tambah dependensi yang diperlukan<br>
 ![prak1langkah2](img/Praktikum_Langkah_2.png)<br>
 ![prak1langkah2](img/Praktikum_Langkah_3.png)<br>
 
